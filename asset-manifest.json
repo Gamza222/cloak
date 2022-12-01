@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cloak/static/css/main.38e7904d.css",
-    "main.js": "/cloak/static/js/main.b7ba85b6.js",
+    "main.css": "/cloak/static/css/main.dd0c13aa.css",
+    "main.js": "/cloak/static/js/main.2b16b740.js",
     "static/media/hacker.png": "/cloak/static/media/hacker.4426d021497b8188edcf.png",
     "index.html": "/cloak/index.html",
-    "main.38e7904d.css.map": "/cloak/static/css/main.38e7904d.css.map",
-    "main.b7ba85b6.js.map": "/cloak/static/js/main.b7ba85b6.js.map"
+    "main.dd0c13aa.css.map": "/cloak/static/css/main.dd0c13aa.css.map",
+    "main.2b16b740.js.map": "/cloak/static/js/main.2b16b740.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e7904d.css",
-    "static/js/main.b7ba85b6.js"
+    "static/css/main.dd0c13aa.css",
+    "static/js/main.2b16b740.js"
   ]
 }
