@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.38e7904d.css",
-    "main.js": "/react-gh-pages/static/js/main.bb7927a4.js",
-    "static/media/hacker.png": "/react-gh-pages/static/media/hacker.4426d021497b8188edcf.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.38e7904d.css.map": "/react-gh-pages/static/css/main.38e7904d.css.map",
-    "main.bb7927a4.js.map": "/react-gh-pages/static/js/main.bb7927a4.js.map"
+    "main.css": "/cloak/static/css/main.38e7904d.css",
+    "main.js": "/cloak/static/js/main.b7ba85b6.js",
+    "static/media/hacker.png": "/cloak/static/media/hacker.4426d021497b8188edcf.png",
+    "index.html": "/cloak/index.html",
+    "main.38e7904d.css.map": "/cloak/static/css/main.38e7904d.css.map",
+    "main.b7ba85b6.js.map": "/cloak/static/js/main.b7ba85b6.js.map"
   },
   "entrypoints": [
     "static/css/main.38e7904d.css",
-    "static/js/main.bb7927a4.js"
+    "static/js/main.b7ba85b6.js"
   ]
 }
