@@ -4,14 +4,30 @@
   position: relative;
   display: flex;
   padding: 40px 0;
-  gap: 560px;
+  gap: 520px;
 
   padding: 0 var(--padding-primary);
   width: 100%;
   align-items: center;
 
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1700px) {
+    gap: 400px;
+  }
+  @media screen and (max-width: 1300px) {
+    gap: 300px;
+  }
+  @media screen and (max-width: 1000px) {
+    gap: 200px;
+  }
+
+  @media screen and (max-width: 950px) {
     justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  @media screen and (max-width: 450px) {
+    overflow-x: hidden;
+    padding-bottom: 100px;
   }
 
   &__hacker-image {
@@ -28,7 +44,16 @@
 
     @media screen and (max-width: 950px) {
       height: auto;
-      width: 100%;
+      width: 48%;
+    }
+    @media screen and (max-width: 650px) {
+      height: auto;
+      width: 88%;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 120%;
+      left: -2rem;
     }
   }
 
@@ -37,32 +62,65 @@
     top: 0;
     left: 0;
     z-index: 0;
+    background: rgb(110, 21, 214);
     background: linear-gradient(
-      160deg,
-      rgba(9, 9, 121, 1) 0%,
-      rgba(0, 212, 255, 1) 100%
+      106deg,
+      rgba(110, 21, 214, 1) 5%,
+      rgba(7, 59, 144, 1) 21%,
+      rgba(4, 154, 172, 1) 48%,
+      rgba(4, 165, 175, 1) 60%,
+      rgba(2, 119, 165, 1) 100%
     );
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 0 344px 206px var(--color-black) inset;
+    box-shadow: 0 0 344px 156px var(--color-black) inset;
     width: 100%;
     height: 120%;
     @media screen and (max-width: 1550px) {
       height: 130%;
       width: 100%;
-      box-shadow: 0 0 313px 135px var(--color-black) inset;
+      box-shadow: 0 0 313px 125px var(--color-black) inset;
+    }
+    @media screen and (max-width: 950px) {
+      width: 102%;
     }
   }
 
   &__social-links {
-    width: 20px;
+    position: relative;
+    z-index: 8;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 35px;
+    margin-top: -280px;
 
-    @media screen and (max-width: 1500px) {
-      position: absolute;
+    > a {
+      > svg {
+        color: var(--color-white);
+        font-size: 32px;
+
+        @media screen and (max-width: 950px) {
+          font-size: 50px;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 40px;
+        }
+      }
+
+      &:hover {
+        transform: translateY(2px);
+      }
+    }
+
+    @media screen and (max-width: 950px) {
+      flex-direction: row;
+      margin-top: -130px;
+      gap: 80px;
+    }
+    @media screen and (max-width: 450px) {
+      gap: 40px;
     }
   }
 
@@ -74,7 +132,7 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    margin-top: 350px;
+    margin-top: 220px;
 
     @media screen and (max-width: 1500px) {
       margin-top: 100px;
@@ -83,6 +141,9 @@
 
     @media screen and (max-width: 950px) {
       width: 100%;
+    }
+    @media screen and (max-width: 750px) {
+      gap: 30px;
     }
 
     &__title {

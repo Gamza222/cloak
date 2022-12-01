@@ -144,13 +144,45 @@
     --font-size-text: 30px;
     --font-size-text-variant: 24px;
     --font-size-title: 30px;
-    --font-size-big: 145px;
+    --font-size-big: 45px;
     --font-size-big-variant: 50px;
 
     /*paddings*/
     --padding-primary: 20px;
 
     --big-line-height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  :root {
+    /*font sizes*/
+    --font-size-btn: 18px;
+    --font-size-text: 30px;
+    --font-size-text-variant: 22px;
+    --font-size-title: 30px;
+    --font-size-big: 40px;
+    --font-size-big-variant: 44px;
+
+    /*paddings*/
+    --padding-primary: 20px;
+
+    --big-line-height: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  :root {
+    /*font sizes*/
+    --font-size-btn: 18px;
+    --font-size-text: 30px;
+    --font-size-text-variant: 20px;
+    --font-size-title: 30px;
+    --font-size-big: 33px;
+    --font-size-big-variant: 38px;
+
+    /*paddings*/
+    --padding-primary: 20px;
+
+    --big-line-height: 37px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -177,6 +209,7 @@ body {
   padding-top: 15px;
   overflow-x: hidden;
   max-width: 2000px;
+  min-width: 280px;
   margin: 0 auto;
 }
 

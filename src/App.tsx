@@ -15,6 +15,9 @@ function App() {
         }
         button1={"lorem ipsum"}
         button2={"read whitepaper"}
+        linkTg={""}
+        linkDs={""}
+        linkTw={""}
       />
     </div>
   );
