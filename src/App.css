@@ -23,6 +23,7 @@
 
   /*paddings*/
   --padding-primary: 38px;
+  --padding-primary-variant: 200px;
 
   --big-line-height: 124px;
 }
@@ -31,7 +32,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 28px;
     --font-size-text-variant: 32px;
     --font-size-title: 28px;
     --font-size-big: 125px;
@@ -42,7 +43,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 25px;
     --font-size-text-variant: 30px;
     --font-size-title: 28px;
     --font-size-big: 105px;
@@ -55,7 +56,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 23px;
     --font-size-text-variant: 28px;
     --font-size-title: 28px;
     --font-size-big: 95px;
@@ -67,7 +68,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 22px;
     --font-size-text-variant: 27px;
     --font-size-title: 28px;
     --font-size-big: 95px;
@@ -86,13 +87,14 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 21px;
     --font-size-text-variant: 27px;
     --font-size-title: 28px;
     --font-size-big: 95px;
     --font-size-big-variant: 80px;
 
     --big-line-height: 65px;
+    --padding-primary-variant: 100px;
 
     /*paddings*/
     --padding-primary: 38px;
@@ -103,20 +105,21 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 18px;
     --font-size-text-variant: 28px;
     --font-size-title: 28px;
     --font-size-big: 95px;
     --font-size-big-variant: 90px;
 
     --big-line-height: 75px;
+    --padding-primary-variant: 50px;
   }
 }
 @media screen and (max-width: 800px) {
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 17px;
     --font-size-text-variant: 28px;
     --font-size-title: 28px;
     --font-size-big: 95px;
@@ -129,7 +132,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 15px;
-    --font-size-text: 30px;
+    --font-size-text: 16px;
     --font-size-text-variant: 28px;
     --font-size-title: 28px;
     --font-size-big: 95px;
@@ -141,7 +144,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 18px;
-    --font-size-text: 30px;
+    --font-size-text: 15px;
     --font-size-text-variant: 24px;
     --font-size-title: 30px;
     --font-size-big: 45px;
@@ -157,7 +160,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 18px;
-    --font-size-text: 30px;
+    --font-size-text: 13px;
     --font-size-text-variant: 22px;
     --font-size-title: 30px;
     --font-size-big: 40px;
@@ -173,7 +176,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 18px;
-    --font-size-text: 30px;
+    --font-size-text: 12px;
     --font-size-text-variant: 20px;
     --font-size-title: 30px;
     --font-size-big: 33px;
@@ -189,7 +192,7 @@
   :root {
     /*font sizes*/
     --font-size-btn: 14px;
-    --font-size-text: 16px;
+    --font-size-text: 11px;
     --font-size-text-variant: 18px;
     --font-size-title: 20px;
     --font-size-big: 145px;

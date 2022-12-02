@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Boxes from "./components/Boxes/Boxes";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
@@ -19,6 +20,7 @@ function App() {
         linkDs={""}
         linkTw={""}
       />
+      <Boxes />
     </div>
   );
 }
