@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Boxes from "./components/Boxes/Boxes";
 import Header from "./components/Header/Header";
+import JoinUs from "./components/JoinUs/JoinUs";
 import Main from "./components/Main/Main";
+import Menu from "./components/Menu/Menu";
+import RoadMap from "./components/RoadMap/RoadMap";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="App">
-      <Header />
-
+      <Header setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
+      <Menu
+        menuOpen={menuOpen}
+        buttons={[
+          { name: "click", href: "#" },
+          { name: "click", href: "#" },
+          { name: "click", href: "#" },
+        ]}
+      />
       <Main
         title={"for all your privacy needs"}
         subtitle={
@@ -21,6 +32,8 @@ function App() {
         linkTw={""}
       />
       <Boxes />
+      <RoadMap />
+      <JoinUs />
     </div>
   );
 }

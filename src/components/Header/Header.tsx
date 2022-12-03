@@ -3,12 +3,20 @@ import Logo from "../../assets/images/Logo";
 import "./Header.scss";
 import { HiMenu } from "react-icons/hi";
 
-const Header: FC = () => {
+interface HeaderPtops {
+  setMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  menuOpen: boolean;
+}
+
+const Header: FC<HeaderPtops> = ({ setMenuOpen, menuOpen }) => {
   return (
     <>
       <header id="header" className="header-container">
         <div className="header-container__menu-btn">
-          <button className="header-container__menu-btn__button">
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="header-container__menu-btn__button"
+          >
             <HiMenu />
           </button>
         </div>
@@ -40,7 +48,10 @@ const Header: FC = () => {
             </button>
           </div>
           <div className="header-container__menu-btn">
-            <button className="header-container__menu-btn__button">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="header-container__menu-btn__button"
+            >
               <HiMenu />
             </button>
           </div>
@@ -56,7 +67,10 @@ const Header: FC = () => {
             </div>
           </div>
           <div className="header-container__menu-btn">
-            <button className="header-container__menu-btn__button">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="header-container__menu-btn__button"
+            >
               <HiMenu />
             </button>
           </div>

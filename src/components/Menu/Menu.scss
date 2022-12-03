@@ -1,0 +1,40 @@
+@import "../../assets/variables.scss";
+
+.menu-container,
+.menu-container-sm {
+  height: fit-content;
+  position: relative;
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+  max-height: 0;
+  visibility: hidden;
+  padding: 50px var(--padding-primary);
+  padding-bottom: 50px;
+
+  &__button {
+    cursor: pointer;
+    @include button;
+    box-shadow: 0 0 28px 1px var(--color-shadow);
+  }
+}
+
+.menu-container {
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
+.menu-container-sm {
+  display: none;
+
+  @media screen and (max-width: 950px) {
+    display: flex;
+  }
+}
+
+.menu-open {
+  max-height: 1000px;
+  visibility: visible;
+  z-index: 15;
+}
