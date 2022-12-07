@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cloak/static/css/main.1394fd2d.css",
-    "main.js": "/cloak/static/js/main.14d0e0e0.js",
-    "static/media/hacker.png": "/cloak/static/media/hacker.4426d021497b8188edcf.png",
+    "main.css": "/cloak/static/css/main.eb1b9e19.css",
+    "main.js": "/cloak/static/js/main.b28e4513.js",
+    "static/media/hacker-pic.png": "/cloak/static/media/hacker-pic.1b11dfdba2816e1a68a4.png",
     "static/media/bag.png": "/cloak/static/media/bag.6962b9b1ed171d2ca6a8.png",
     "static/media/wallet.png": "/cloak/static/media/wallet.64fdd8b24ea7687d6307.png",
     "static/media/cubes.png": "/cloak/static/media/cubes.9f9ab6556fb27ec350d8.png",
     "static/media/graph.png": "/cloak/static/media/graph.965f7ec368c78e36316b.png",
     "static/media/logo-bg-cloak.png": "/cloak/static/media/logo-bg-cloak.6a9f460d7befc3754bdb.png",
     "index.html": "/cloak/index.html",
-    "main.1394fd2d.css.map": "/cloak/static/css/main.1394fd2d.css.map",
-    "main.14d0e0e0.js.map": "/cloak/static/js/main.14d0e0e0.js.map"
+    "main.eb1b9e19.css.map": "/cloak/static/css/main.eb1b9e19.css.map",
+    "main.b28e4513.js.map": "/cloak/static/js/main.b28e4513.js.map"
   },
   "entrypoints": [
-    "static/css/main.1394fd2d.css",
-    "static/js/main.14d0e0e0.js"
+    "static/css/main.eb1b9e19.css",
+    "static/js/main.b28e4513.js"
   ]
 }
