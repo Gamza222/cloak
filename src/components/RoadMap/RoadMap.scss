@@ -1,0 +1,98 @@
+@import "../../assets/variables.scss";
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 180px;
+
+  @media screen and (max-width: 1300px) {
+    margin-bottom: 140px;
+  }
+  @media screen and (max-width: 1050px) {
+    margin-bottom: 120px;
+  }
+  @media screen and (max-width: 750px) {
+    margin-bottom: 90px;
+  }
+  @media screen and (max-width: 550px) {
+    margin-bottom: 60px;
+  }
+
+  &__header {
+    @include header;
+
+    &__title {
+      @include title;
+      margin-bottom: 50px;
+      @media screen and (max-width: 1300px) {
+        margin-bottom: 25px;
+      }
+    }
+
+    &__subtitle {
+      text-align: center;
+      font-weight: var(--font-weight-thin);
+      font-size: var(--font-size-text-variant);
+      width: 80%;
+
+      @media screen and (max-width: 350px) {
+        width: 90%;
+      }
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px var(--padding-primary-variant);
+    margin-top: 50px;
+    column-gap: 200px;
+    row-gap: 100px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+
+    @media screen and (max-width: 1050px) {
+      grid-template-columns: 1fr;
+      row-gap: 50px;
+    }
+
+    @media screen and (max-width: 1300px) {
+      margin-bottom: 25px;
+    }
+
+    &__line {
+      position: absolute;
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+
+      @media screen and (max-width: 1050px) {
+        display: none;
+      }
+
+      > svg {
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        top: 200px;
+        transform: translateX(-50%);
+        left: 50%;
+        height: 66%;
+        background-color: #fff;
+
+        @media screen and (max-width: 1900px) {
+          height: 60%;
+        }
+      }
+    }
+
+    &__line:nth-child(2) {
+      display: none;
+    }
+  }
+}

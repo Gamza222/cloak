@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import hacker from "../../assets/images/hacker.png";
+import hacker from "../../assets/images/hacker-pic.png";
 import bg from "../../assets/images/bg-cloack.png";
 import "./Main.scss";
 import { FaTelegramPlane } from "react-icons/fa";

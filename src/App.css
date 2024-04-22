@@ -5,7 +5,7 @@
   --font-size-btn: 20px;
   --font-size-text: 33px;
   --font-size-text-variant: 37px;
-  --font-size-title: 50px;
+  --font-size-title: 60px;
   --font-size-big: 145px;
   --font-size-big-variant: 164px;
 
@@ -33,8 +33,8 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 28px;
-    --font-size-text-variant: 32px;
-    --font-size-title: 28px;
+    --font-size-text-variant: 30px;
+    --font-size-title: 48px;
     --font-size-big: 125px;
     --font-size-big-variant: 144px;
   }
@@ -44,8 +44,8 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 25px;
-    --font-size-text-variant: 30px;
-    --font-size-title: 28px;
+    --font-size-text-variant: 27px;
+    --font-size-title: 42px;
     --font-size-big: 105px;
     --font-size-big-variant: 124px;
 
@@ -57,8 +57,8 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 23px;
-    --font-size-text-variant: 28px;
-    --font-size-title: 28px;
+    --font-size-text-variant: 24px;
+    --font-size-title: 38px;
     --font-size-big: 95px;
     --font-size-big-variant: 104px;
   }
@@ -69,8 +69,8 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 22px;
-    --font-size-text-variant: 27px;
-    --font-size-title: 28px;
+    --font-size-text-variant: 23px;
+    --font-size-title: 38px;
     --font-size-big: 95px;
     --font-size-big-variant: 104px;
 
@@ -88,9 +88,9 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 21px;
-    --font-size-text-variant: 27px;
+    --font-size-text-variant: 22px;
     --font-size-title: 28px;
-    --font-size-big: 95px;
+    --font-size-big: 85px;
     --font-size-big-variant: 80px;
 
     --big-line-height: 65px;
@@ -104,11 +104,11 @@
 @media screen and (max-width: 900px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 15px;
+    --font-size-btn: 14px;
     --font-size-text: 18px;
-    --font-size-text-variant: 28px;
+    --font-size-text-variant: 22px;
     --font-size-title: 28px;
-    --font-size-big: 95px;
+    --font-size-big: 75px;
     --font-size-big-variant: 90px;
 
     --big-line-height: 75px;
@@ -118,11 +118,11 @@
 @media screen and (max-width: 800px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 15px;
+    --font-size-btn: 13px;
     --font-size-text: 17px;
-    --font-size-text-variant: 28px;
+    --font-size-text-variant: 22px;
     --font-size-title: 28px;
-    --font-size-big: 95px;
+    --font-size-big: 65px;
     --font-size-big-variant: 80px;
 
     --big-line-height: 65px;
@@ -133,9 +133,9 @@
     /*font sizes*/
     --font-size-btn: 15px;
     --font-size-text: 16px;
-    --font-size-text-variant: 28px;
+    --font-size-text-variant: 22px;
     --font-size-title: 28px;
-    --font-size-big: 95px;
+    --font-size-big: 65px;
     --font-size-big-variant: 65px;
     --big-line-height: 55px;
   }
@@ -143,9 +143,9 @@
 @media screen and (max-width: 600px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 18px;
+    --font-size-btn: 12px;
     --font-size-text: 15px;
-    --font-size-text-variant: 24px;
+    --font-size-text-variant: 22px;
     --font-size-title: 30px;
     --font-size-big: 45px;
     --font-size-big-variant: 50px;
@@ -159,9 +159,9 @@
 @media screen and (max-width: 450px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 18px;
+    --font-size-btn: 12px;
     --font-size-text: 13px;
-    --font-size-text-variant: 22px;
+    --font-size-text-variant: 18px;
     --font-size-title: 30px;
     --font-size-big: 40px;
     --font-size-big-variant: 44px;
@@ -175,9 +175,9 @@
 @media screen and (max-width: 400px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 18px;
+    --font-size-btn: 12px;
     --font-size-text: 12px;
-    --font-size-text-variant: 20px;
+    --font-size-text-variant: 17px;
     --font-size-title: 30px;
     --font-size-big: 33px;
     --font-size-big-variant: 38px;
@@ -191,11 +191,11 @@
 @media screen and (max-width: 320px) {
   :root {
     /*font sizes*/
-    --font-size-btn: 14px;
+    --font-size-btn: 11px;
     --font-size-text: 11px;
-    --font-size-text-variant: 18px;
+    --font-size-text-variant: 16px;
     --font-size-title: 20px;
-    --font-size-big: 145px;
+    --font-size-big: 30px;
     --font-size-big-variant: 34px;
 
     --big-line-height: 34px;
@@ -227,4 +227,12 @@ body {
 
 button {
   cursor: pointer;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+p {
+  hyphens: auto;
 }

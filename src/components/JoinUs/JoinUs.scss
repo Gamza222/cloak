@@ -1,0 +1,166 @@
+@import "../../assets/variables.scss";
+
+.join-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    &__header {
+      @include header;
+      margin-bottom: 30px;
+
+      &__title {
+        @include title;
+        white-space: nowrap;
+        margin-bottom: 180px;
+
+        @media screen and (max-width: 1050px) {
+          margin-bottom: 50px;
+        }
+        @media screen and (max-width: 550px) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    &__links {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      @media screen and (max-width: 1050px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media screen and (max-width: 550px) {
+        gap: 30px;
+      }
+
+      &__link {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-black);
+        border-radius: 20px;
+        box-shadow: 0 0 30px -1px var(--color-shadow);
+        padding: 50px 80px;
+        font-size: 50px;
+        color: #fff;
+        border: 4px solid transparent;
+        &:hover {
+          color: black;
+          background-color: var(--color-shadow);
+          border-color: black;
+        }
+
+        @media screen and (max-width: 550px) {
+          padding: 34px 48px;
+          font-size: 30px;
+        }
+        @media screen and (max-width: 350px) {
+          padding: 25px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    > h4 {
+      font-size: 95px;
+      font-weight: var(--font-weight-semi-bold);
+      text-transform: uppercase;
+      margin-top: 130px;
+      text-align: center;
+      line-height: 80px;
+
+      @media screen and (max-width: 1750px) {
+        font-size: 75px;
+        line-height: 65px;
+      }
+      @media screen and (max-width: 1550px) {
+        font-size: 65px;
+        line-height: 55px;
+      }
+      @media screen and (max-width: 1300px) {
+        font-size: 55px;
+        line-height: 45px;
+      }
+      @media screen and (max-width: 1050px) {
+        margin-top: 70px;
+      }
+      @media screen and (max-width: 800px) {
+        font-size: 45px;
+        line-height: 38px;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 36px;
+        line-height: 34px;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 32px;
+        line-height: 29px;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 28px;
+        line-height: 26px;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 25px;
+        line-height: 23px;
+      }
+    }
+
+    &__logo {
+      @include logo;
+      margin-top: 100px;
+      margin-left: -50px;
+
+      @media screen and (max-width: 1050px) {
+        margin-top: 55px;
+      }
+    }
+  }
+
+  &__bg {
+    width: 160%;
+    height: 90%;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    background: linear-gradient(
+      106deg,
+      rgb(2, 119, 165) 5%,
+      rgb(4, 165, 175) 10%,
+      rgb(4, 154, 172) 38%,
+      rgb(7, 59, 144) 60%,
+      rgb(110, 21, 214) 100%
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 186px 142px var(--color-black) inset,
+      0 0 19px 26px var(--color-black);
+
+    @media screen and (max-width: 1050px) {
+      top: 20px;
+    }
+  }
+
+  &__hacker {
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: hard-light;
+    height: 110%;
+    opacity: 0.4;
+    right: -280px;
+  }
+}

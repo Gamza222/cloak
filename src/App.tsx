@@ -32,8 +32,12 @@ function App() {
         linkTw={""}
       />
       <Boxes />
-      <RoadMap />
-      <JoinUs />
+      <RoadMap
+        title={"roadmap into a secore future"}
+        subtitle=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt sunt provident, aliquid eos labore aut adipisci nemo dolorem, veniam modi perspiciatis saepe voluptatem dolor deserunt expedita quia unde similique!"
+      />
+
+      <JoinUs title="join us" />
     </div>
   );
 }
